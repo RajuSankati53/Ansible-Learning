@@ -16,7 +16,7 @@ sudo apt update
 sudo apt install ansible -y
 ansible --version
 
-### 2️⃣ Created the Ansible Inventory File (inventory.ini)
+### 📄 Created the Ansible Inventory File (`inventory.ini`)
 
 ![Inventory Screenshot](SS-1.png)
 
