@@ -19,4 +19,4 @@ ansible --version
 ### 📄 Created the Ansible Inventory File (`inventory.ini`)
 
 
-![Image Alt](image_url))
+![Image Alt](https://github.com/RajuSankati53/Ansible-Learning/blob/8e14e5002e98334dc1bab4a2891f19f4cbfe1468/SS-1.png)
