@@ -1,0 +1,25 @@
+---
+- name: Install and start Nginx web server
+  hosts: webservers
+  become: true   # Run as sudo/root
+  tasks:
+
+    - name: Update APT package index
+      apt:
+        update_cache: yes
+
+    - name: Install Nginx
+      apt:
+        name: nginx
+        state: present
+
+    - name: Ensure Nginx is running
+      service:
+        name: nginx
+        state: started
+        enabled: yes
+
+    - name: Create a custom homepage
+      copy:
+        content: "<h1>Hello from Ansible Nginx!</h1>"
+        dest: /var/www/html/index.html
