@@ -18,5 +18,5 @@ ansible --version
 
 ### 📄 Created the Ansible Inventory File (`inventory.ini`)
 
-![Inventory Screenshot](SS-1.png)
 
+![Image Alt](image_url))
