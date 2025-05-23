@@ -7,11 +7,18 @@ Automate the following tasks using Ansible:
 - Use an SSH key and inventory to manage all hosts
 
 ---
+sudo apt update
+sudo apt install ansible -y
+ansible --version
+
+### 📄 Created the Ansible Inventory File (`inventory.ini`)
+
+
 
 ## ✅ Step-by-Step Implementation
 
 ### 1️⃣ Installed Ansible on the Host Machine (Control Node)
-```bash
+
 sudo apt update
 sudo apt install ansible -y
 ansible --version
@@ -20,3 +27,6 @@ ansible --version
 
 
 ![Inventory Screenshot](SS-1.png)
+
+
+
